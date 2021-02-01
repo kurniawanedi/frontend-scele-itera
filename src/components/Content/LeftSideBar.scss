@@ -1,0 +1,28 @@
+.clock-calendar{
+    background: #dddddd;
+    padding: 5px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+
+    h3{
+        margin-top: 5px;
+        margin-left: 2px;
+        margin-bottom: 0;
+
+        .fa-clock, .fa-calendar-alt {
+            border-radius: 15%;
+            padding: 7px;
+            background: #d09d03;
+            color: white;
+            width: 25px;
+            text-align: center;
+            border: none;
+            margin-right: 2px;
+            height: 17px;
+        }
+        
+        .fa-calendar-alt{
+            background: #0374d0;
+        }
+    }
+}

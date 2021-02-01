@@ -1,0 +1,98 @@
+.navbar-wrapper{
+    background-color: #323846;
+    padding-left: 5%;
+    padding-right: 5%;
+    font-size: 11pt;
+
+
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        // overflow: hidden;
+        background-color: #323846;
+
+        
+        li {
+            float: left;
+            // .dropdown {
+            //     display: inline-block;
+            // }
+            
+
+            a {
+                display: block;
+                color: white;
+                text-align: center;
+                padding: 23px 23px;
+                text-decoration: none;
+            }
+
+            a:hover:not(.active) {
+                background-color: #d09d03;
+            }
+        }
+
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: #f9f9f9;
+            min-width: 160px;
+            box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+            z-index: 1;
+        }
+
+        .dropdown-content a {
+            color: black;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+            text-align: left;
+        }
+
+        .dropdown-content a:hover {background-color: #f1f1f1;}
+
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+
+        .scele{
+            background-color: #E3AC00;
+            padding-bottom: 2px;
+        }
+        
+        .search-component {
+            margin: 0;
+            padding: 0;
+            // background-color: #4CAF50;
+            float: right;
+            .fa-search  {
+                padding: 23px 19px 26px 19px;
+                // padding-top: 12px;
+                background: #d09d03;
+                color: white;
+                width: 25px;
+                text-align: center;
+                border: none;
+                margin-top: -10px;
+                height: 100%;
+
+            }
+            .input-field-search {
+                // margin-top: -10px;
+                border: none;
+                height: 62px;
+                width: 250px;
+                outline: none;
+                padding-left: 10px;
+                background: #696969;
+                // color: rgb(201, 43, 43);
+                // margin-right: 4px;
+            }
+
+            ::placeholder {
+                color: white;   
+            }
+        }
+    }
+}

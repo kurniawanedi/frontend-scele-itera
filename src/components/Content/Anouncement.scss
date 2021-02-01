@@ -1,0 +1,48 @@
+.anouncement-content{
+    display: flex;
+    align-items: flex-start;
+    border: 1px solid #c9c9c9;
+    border-left: 3px solid #E3AC00;
+    background: #F9F9F9;
+    padding: 15px;
+    border-radius: 0.5%;
+    line-height: 1.7;
+    font-size: 10.5pt;
+    margin-bottom: 40px;
+
+    .image{
+        width: 45px;
+        height: 45px;
+        border-radius: 50%;
+        margin-right: 10px;
+    }
+
+    .content{
+        margin-top: -15px;
+        margin-left: 5px;
+
+        a{
+            text-decoration: none;
+            color: #E3AC00;
+        }
+
+        .permalink{
+            margin-top: 50px;
+            text-align: right;
+            a{
+                text-decoration: none;
+                color: #E3AC00;
+            }
+        }
+        .discuss-link{
+            margin-top: 15px;
+            text-align: right;
+            
+            a{
+                color: #E3AC00;
+                margin-top: 10px;
+                text-decoration: none;
+            }
+        }
+    }
+}

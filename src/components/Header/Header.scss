@@ -1,0 +1,22 @@
+.header-wrapper{
+    // height: 50rem;
+    margin-bottom: 0;
+
+    hr{
+        height: 3px;
+        background: #E3AC00;
+        border: none;
+        margin-bottom: 1px;
+        margin-top: 0;
+    }
+
+    .header-component{
+        background-color: #333333;
+        padding-left: 40px;
+        padding-right: 40px;
+        justify-content: space-between;
+        align-items: center;
+        display: flex;
+        height: 100px;
+    }
+}
